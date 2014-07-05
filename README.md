@@ -14,7 +14,8 @@ image after startup, dokku is automatically installed. as a provisioning
 provisioning is use "vargrant ssh". if vargrant ssh does not work in windows, 
 please run the provisioning command manually in the guest machine.
 
-というか、vargrant ssh動かなくて、ゲストに入ってインストールしました。
+windowsは、Git Bash から vargarnt up やるといいよ。
+
 
 # setting vhost
 hostsに手で書くのだが、これが結局めんどい
