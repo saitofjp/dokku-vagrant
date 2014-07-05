@@ -13,10 +13,11 @@ image after startup, dokku is automatically installed. as a provisioning
 
 provisioning is use "vargrant ssh". if vargrant ssh does not work in windows, 
 please run the provisioning command manually in the guest machine.
+
 というか、vargrant ssh動かなくて、ゲストに入ってインストールしました。
 
 # setting vhost
-これが結局めんどい
+hostsに手で書くのだが、これが結局めんどい
 
 # push
     git remote add dokku dokku@deploy.192.168.33.101.xip.io:node-js-sample
